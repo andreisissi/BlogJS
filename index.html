@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style-css/header-nav.css">
+    <link rel="stylesheet" href="style-css/articles.css">
+    <link rel="stylesheet" href="style-css/card-body.css">
+    <link rel="stylesheet" href="style-css/base.css">
+    
+    <title>4DEV</title>
+</head>
+<body>
+
+    <nav>
+
+        <label class="name">
+            <em>4</em>Dev
+        </label>
+
+            <ul>
+                <li><a class="active" href="#" data_categories_all>Todas as categorias</a></li>
+                <li><a href="#" data_science>Ciência</a></li>
+                <li><a href="#" data_games>Games</a></li>
+                <li><a href="#" data_security>Segurança</a></li>
+                <li><a href="#" data_hardware>Hardware</a></li>
+            </ul>
+    </nav>
+
+    <section>
+
+        <article data_article data_categorie="ciencia">
+            <div class="container-img">
+                <img src="assets/ciencia.jpeg" alt="">
+            </div>
+            <p class="categorie">Ciência</p>
+            <p class="data" data_date>Data</p>
+            <h3 class="subtitle">Biohacker milionário coloca algoritmo para controlar sua vida</h3>
+            <p class="text">Através da iniciativa Blueprint, o biohacker milionário Bryan Johnson, de 46 anos, busca se manter...</p>
+            <p class="views">Visualizações: <span data_views_1>0</span></p>
+        </article>
+
+        <article data_article data_categorie="games">
+            <div class="container-img">
+                <img src="assets/entretenimento.png" alt="">
+            </div>
+            <p class="categorie">Games</p>
+            <p class="data" data_date>Data</p>
+            <h3 class="subtitle">Os lançamentos de games em setembro de 2023</h3>
+            <p class="text">Setembro se configurou como o mês mais recheado do ano no calendário de jogos. Afinal de contas, estamos...</p>
+            <p class="views">Visualizações: <span data_views_2>0</span></p>
+        </article>
+        
+        <article data_article data_categorie="seguranca">
+            <div class="container-img">
+                <img src="assets/seguranca.jpeg" alt="">
+            </div>
+            <p class="categorie">Segurança</p>
+            <p class="data" data_date>Data</p>
+            <h3 class="subtitle">Intel Core i9-14900KF supera i9-13900K em novos testes vazados</h3>
+            <p class="text">Faltando poucos dias para o anúncio oficial dos processadores Intel Raptor Lake Refresh de 14ª geração, o Core...</p>
+            <p class="views">Visualizações: <span data_views_3>0</span></p>
+        </article>
+
+        <article data_article data_categorie="hardware">
+            <div class="container-img">
+                <img src="assets/hardware.png" alt="">
+            </div>
+            <p class="categorie">Hardware</p>
+            <p class="data" data_date>Data</p>
+            <h3 class="subtitle">Firefox recebe correção para falha de segurança crítica</h3>
+            <p class="text">A Mozilla liberou nesta semana uma atualização de segurança emergencial para o navegador...</p>
+            <p class="views">Visualizações: <span data_views_4>0</span></p>
+        </article>
+
+    </section>
+
+    <script type="text/JavaScript" src="JavaScript/index.js"></script>
+</body>
+</html>

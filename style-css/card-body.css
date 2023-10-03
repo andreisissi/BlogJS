@@ -1,0 +1,44 @@
+.categorie {
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.data {
+    font-size: 20px;
+    color: rgb(25, 10, 107);
+    font-weight: 900;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: rgb(25, 10, 107);
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.text {
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.views {
+    text-align: end;
+    margin-top: 50px;
+    margin-right: 10px;
+    font-weight: bolder;
+}
