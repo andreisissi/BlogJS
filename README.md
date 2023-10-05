@@ -1,5 +1,7 @@
 <h1>Descrição do Projeto - Blog</h1>
 
+![image](https://github.com/andreisissi/BlogJS/assets/108301269/73b043b8-aea6-41b5-bb5a-012ca9a5365d)
+
 
 - Desenvolva um blog estático voltado à tecnologia usando HTML, CSS e Javascript, composto de duas páginas: a página inicial e página de visualização de um post específico. 
 
