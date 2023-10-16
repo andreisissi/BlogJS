@@ -21,7 +21,7 @@ switch (indice) {
         attributeCards.data_title_card.innerHTML = 'Biohacker milionário coloca algoritmo para controlar sua vida';
         attributeCards.data_date_card.innerHTML = `${dataAtual.data}`;
         attributeCards.data_views.innerHTML = views_card_1;
-        attributeCards.data_img.setAttribute('src', 'assets/ciencia.jpeg');
+        attributeCards.data_img.setAttribute('src', '../assets/img/ciencia.jpeg');
         attributeCards.data_text_card.innerHTML = `Através da iniciativa Blueprint, o biohacker milionário Bryan Johnson, de 46 anos, busca se manter "eternamente" jovem através das últimas tecnologias disponíveis na área médica, independente dos custos. O norte-americano já assume que quem controla a sua vida é o algoritmo, desenvolvido especificamente para esta finalidade, e que supera a sua mente.Para entender o tamanho do projeto iniciado há dois anos, o biohacker Johnson investe anualmente cerca de US$ 2 milhões (aproximadamente 10 milhões de reais) nos tratamentos, rotinas de cuidados e tecnologias que podem mantê-lo jovem. Considerando apenas a última semana, ele conta que recebeu 60 picadas de agulhas. Por dia, são ingeridos mais de 100 tipos diferentes de suplementos.<br><br>Entre as polêmicas que Johnson já se envolveu, estão as transfusões de plasma provenientes do seu filho. Por um tempo, ele e o seu pai, Richard, recebiam esta parte do sangue rica em nutrientes. A ideia era de que os compostos do sangue de uma pessoa mais jovem melhorassem os biomarcadores dos mais velhos, como estudos em roedores demonstraram. A questão é que a técnica testada nos modelos animais não era tão simples como foi replicada, e a estratégia não funcionou. Hoje, o biohacker explica que não faz mais isso por falta de resultados práticos.<br><br><strong>O algoritmo que comanda a vida do biohacker milionário</strong><br><br>
                 
         <br>Para entender as decisões de Johnson em relação à sua saúde, é preciso explicar que o projeto Blueprint é dirigido por algoritmo de Inteligência Artificial (IA). Afinal, "eu construí um algoritmo que cuida melhor de mim do que eu mesmo. Ele excedeu minhas habilidades", explica o milionário, em entrevista para a revista Rolling Stone. Para ser sincero, "a inteligência computacional simplesmente ultrapassou nossas mentes em muitos domínios", como ocorre com a saúde.Aqui, vale mencionar que apesar da busca recente pela juventude, Johnson é, na verdade, conhecido por sua atuação na área de tecnologia, e pela fundação das empresas OS Fund e Kernel. Então, muito do que ele se propõe a fazer envolve a ciência de dados e as análises brutas de informações sobre o corpo humano.<br><br></p>
@@ -35,7 +35,7 @@ switch (indice) {
         attributeCards.data_title_card.innerHTML = "Confira os lançamentos de games em setembro de 2023,"
         attributeCards.data_date_card.innerHTML = `${dataAtual.data}`
         attributeCards.data_views.innerHTML = views_card_2;
-        attributeCards.data_img.setAttribute('src', 'assets/game.jpg')
+        attributeCards.data_img.setAttribute('src', '../assets/img/game.jpg')
         attributeCards.data_text_card.innerHTML = `Setembro se configurou como o mês mais recheado do ano no calendário de jogos. Afinal de contas, estamos falando do momento de chegada de um dos títulos mais aguardados de 2023, que vem acompanhado do novo capítulo de uma das grandes franquias dos games de luta e da nova forma de um craque eterno dos gramados.O nono mês de 2023 já começa com Starfield, o épico espacial e tão esperado game inédito da Bethesda. Os jogadores, porém, terão que dividir suas aventuras pelo cosmo com o sangue jorrando de Mortal Kombat 1 e, caso se cansem de tudo isso, poderão bater uma bolinha no bom e velho FIFA, que agora atende como EA Sports FC.Todos os lançamentos de games em setembro de 2023<br><br>
         <strong>01/09</strong><br>
         Bomb Rush Cyberfunk (PS4, PS5, Xbox One, Xbox Series X|S)<br>
@@ -89,7 +89,7 @@ switch (indice) {
         attributeCards.data_title_card.innerHTML = "Firefox recebe correção para falha de segurança crítica" 
         attributeCards.data_date_card.innerHTML = `${dataAtual.data}`
         attributeCards.data_views.innerHTML = views_card_3;
-        attributeCards.data_img.setAttribute('src', '/assets/seguranca.jpeg')
+        attributeCards.data_img.setAttribute('src', '../assets/img/seguranca.jpeg')
         attributeCards.data_text_card.innerHTML = `A Mozilla liberou nesta semana uma atualização de segurança emergencial para o navegador Firefox, resolvendo uma brecha crítica que já vinha sendo utilizada em ataques contra os usuários. Bastava que os usuários abrissem uma imagem maliciosa em formato WebP, que poderia estar disponível em um site da internet, para que os cibercriminosos pudessem agir.
         A CVE-2023-4863, como vem sendo rastreada, atinge o Firefox e também o cliente de e-mail Thunderbird. Ela estava presente em uma biblioteca de códigos relacionada à abertura do formato visual, com um arquivo manipulado podendo levar à escrita de dados fora dos limites da memória, possibilitando golpes que envolveriam desde o travamento do software e do dispositivo até a execução remota de ataques para instalação de vírus, por exemplo.<br><br>
         
@@ -107,7 +107,7 @@ switch (indice) {
         attributeCards.data_title_card.innerHTML = "Intel Core i9-14900KF supera i9-13900K em novos testes vazados"
         attributeCards.data_date_card.innerHTML = `${dataAtual.data}`
         attributeCards.data_views.innerHTML = views_card_4;
-        attributeCards.data_img.setAttribute('src', '/assets/hardware.png') 
+        attributeCards.data_img.setAttribute('src', '../assets/img/hardware.png') 
         attributeCards.data_text_card.innerHTML = `Faltando poucos dias para o anúncio oficial dos processadores Intel Raptor Lake Refresh de 14ª geração, o Core i9-14900KF teve sua performance vazada mais uma vez. Felizmente, esse é um dos primeiros vazamentos que coloca a nova CPU em uma posição de maior vantagem frente à concorrência e à 13ª geração da fabricante.<br><br>
         O vazamento é cortesia do usuário One Raichu, que testou o processador no Geekbench 6. Vale salientar que desta vez os testes foram conduzidos em parâmetros mais palatáveis, utilizando uma placa-mãe AsRock Z790 Taichi e 32 GB de memória RAM DDR5 a 7.000 MT/s.<br><br>
         
