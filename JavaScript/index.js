@@ -11,6 +11,7 @@ const attributeHtml = {
     data_views_2: document.querySelector('[data_views_2]'),
     data_views_3: document.querySelector('[data_views_3]'),
     data_views_4: document.querySelector('[data_views_4]'),
+    data_p: document.querySelectorAll('[data_p]'),
 }
 
 attributeHtml.data_views_1.innerHTML = localStorage.getItem('views_card_1') || '0';
@@ -18,9 +19,25 @@ attributeHtml.data_views_2.innerHTML = localStorage.getItem('views_card_2') || '
 attributeHtml.data_views_3.innerHTML = localStorage.getItem('views_card_3') || '0';
 attributeHtml.data_views_4.innerHTML = localStorage.getItem('views_card_4') || '0';
 
+function limitarTexto(texto, limite) {
+    if (texto.length > limite) {
+        return texto.substring(0, limite) + '...';
+    }
+    return texto;
+}
+
+attributeHtml.data_p.forEach((paragrafo) => {
+    const limiteCaracteres = 100;
+    const textoCompleto = paragrafo.textContent;
+    const textoLimitado = limitarTexto(textoCompleto, limiteCaracteres);
+    paragrafo.textContent = textoLimitado;
+});
+
+
 const dataAtual = {
     data: new Date().toLocaleDateString()
 }
+
 
 attributeHtml.data_date.forEach((data) => {
     data.innerHTML = `${dataAtual.data}`

@@ -32,10 +32,10 @@ switch (indice) {
         break;
 
     case '1':
-        attributeCards.data_title_card.innerHTML = "Os lançamentos de games em setembro de 2023,"
+        attributeCards.data_title_card.innerHTML = "Confira os lançamentos de games em setembro de 2023,"
         attributeCards.data_date_card.innerHTML = `${dataAtual.data}`
         attributeCards.data_views.innerHTML = views_card_2;
-        attributeCards.data_img.setAttribute('src', '/assets/entretenimento.png')
+        attributeCards.data_img.setAttribute('src', 'assets/game.jpg')
         attributeCards.data_text_card.innerHTML = `Setembro se configurou como o mês mais recheado do ano no calendário de jogos. Afinal de contas, estamos falando do momento de chegada de um dos títulos mais aguardados de 2023, que vem acompanhado do novo capítulo de uma das grandes franquias dos games de luta e da nova forma de um craque eterno dos gramados.O nono mês de 2023 já começa com Starfield, o épico espacial e tão esperado game inédito da Bethesda. Os jogadores, porém, terão que dividir suas aventuras pelo cosmo com o sangue jorrando de Mortal Kombat 1 e, caso se cansem de tudo isso, poderão bater uma bolinha no bom e velho FIFA, que agora atende como EA Sports FC.Todos os lançamentos de games em setembro de 2023<br><br>
         <strong>01/09</strong><br>
         Bomb Rush Cyberfunk (PS4, PS5, Xbox One, Xbox Series X|S)<br>
