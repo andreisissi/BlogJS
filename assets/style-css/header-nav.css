@@ -7,7 +7,7 @@ nav {
 
 label.name {
     color: white;
-    font-size: 50px;
+    font-size: 3vw;
     line-height: 80px;
     padding: 0 5%;
     font-weight: bold;
@@ -26,7 +26,7 @@ nav ul li {
 
 nav ul li a {
     color: white;
-    font-size: 17px;
+    font-size: 1vw;
     text-transform: uppercase;
     padding: 7px 13px;
     border-radius: 3px;

@@ -1,9 +1,11 @@
 .categorie {
     margin-bottom: 10px;
+    font-size: 1vw;
 }
 
 .data {
     color: rgb(25, 10, 107);
+    font-size: 1vw;
 }
 
 .subtitle {

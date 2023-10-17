@@ -15,9 +15,7 @@ article:hover {
 .container-img{
     width: 95%;
     border-radius: 5px;
-    margin: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 5px auto 0 auto;
     overflow: hidden;
 }
 
@@ -41,7 +39,6 @@ img:hover{
     font-weight: 900;
     font-weight: bolder;
     text-transform: uppercase;
-    font-size: 1vw;
 }
 
 .container-subtitle {

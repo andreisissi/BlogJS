@@ -1,4 +1,185 @@
-@media screen and (max-width: 1110px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+
+    label.name {
+        font-size: 20px;
+        padding: 0 5%;
+    }
+
+    nav ul {
+        margin-right: 0;
+    }
+
+    nav ul li {
+        margin: 0 5px 0 5px;
+        height: 5px;
+        line-height: 50px;
+    }
+
+    nav ul li a {
+        font-size: 2vw;
+        padding: 5px 5px;
+        margin: 0 5px 0 5px;
+    }
+
+    section{
+        margin-top: 2%;
+        width: 90%;
+        padding-bottom: 2%;
+    }
+
+    article{
+        width: 45%;
+        margin: 4px;
+    }
+
+    .categorie {
+        font-size: 3vw;
+        margin-bottom: 3px;
+    }
+
+    .data {
+        font-size: 2.5vw;
+    }
+
+    .container-subtitle {
+        font-size: 2.3vw;
+    }
+
+    .container-text {
+        margin-bottom: 20px;
+        font-size: 2.5vw;
+    }
+
+    .views {
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    nav {
+        display: flex;
+    }
+
+    label.name {
+        font-size: 20px;
+        padding: 0 5%;
+    }
+
+    nav ul {
+        margin-left: 20px;
+    }
+
+    nav ul li {
+        margin: 0 5px 0 5px;
+        height: 20px;
+        line-height: 50px;
+    }
+
+    nav ul li a {
+        font-size: 1.8vw;
+        padding: 5px 5px;
+        margin: 0 5px 0 5px;
+    }
+
+    section{
+        margin-top: 5%;
+        width: 80%;
+        padding-bottom: 5%;
+    }
+
+    article{
+        width: 45%;
+        margin: 4px;
+    }
+
+    .categorie {
+        font-size: 2.5vw;
+        margin-bottom: 3px;
+    }
+
+    .data {
+        font-size: 2vw;
+    }
+
+    .container-subtitle {
+        font-size: 2.3vw;
+    }
+
+    .container-text {
+        width: 90%;
+        margin-bottom:20px;
+        font-size: 2.5vw;
+    }
+
+    .views {
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    label.name {
+        font-size: 29px;
+        padding: 0 3%;
+    }
+
+    nav ul {
+        margin-left: 30px;
+    }
+
+    nav ul li {
+        margin: 0 5px 0 5px;
+    }
+
+    nav ul li a {
+        font-size: 1.5vw;
+        padding: 5px 10px;
+        margin: 0 5px 0 5px;
+    }
+
+    section{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        width: 90%;
+        padding-bottom: 5%;
+    }
+
+    article{
+        width: 24%;
+        margin: 3px;
+    }
+
+    .categorie {
+        font-size: 1.5vw;
+        margin-bottom: 3px;
+    }
+
+    .data {
+        font-size: 1.4vw;
+    }
+
+    .container-subtitle {
+        font-size: 1.4vw;
+    }
+
+    .container-text {
+        width: 90%;
+        margin-bottom:20px;
+        font-size: 1.5vw;
+    }
+
+    .views {
+        font-size: 1.3vw;
+    }
+}
+/* @media screen and (max-width: 1110px) {
 
     section{
         margin-top: 5%;
@@ -98,4 +279,5 @@
         font-size: 6px;
         padding: 5px 3px;
     }
-}
+} */
+
